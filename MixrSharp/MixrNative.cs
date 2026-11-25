@@ -142,6 +142,9 @@ public static unsafe class MixrNative
     public static extern void mxStreamLoadMp3([MarshalAs(UnmanagedType.LPUTF8Str)] string path, out nint audioStream);
 
     [DllImport(DllName)]
+    public static extern void mxStreamLoadOpus([MarshalAs(UnmanagedType.LPUTF8Str)] string path, out nint audioStream);
+
+    [DllImport(DllName)]
     public static extern bool mxWavIsADPCM(nint stream);
 
     [DllImport(DllName)]

@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="MixrSharp.Example/MixrSharp.Example.csproj" />
+  <Project Path="MixrSharp/MixrSharp.csproj" />
+</Solution>
